@@ -1,0 +1,98 @@
+Script started on 2023-04-15 10:17:23+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="90" LINES="24"]
+Hello, nik!
+[sudo] пароль для nik: 
+net.ipv4.ip_default_ttl = 65
+[?2004h10:17:32 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m mkdir lab5_[K_[K-tasks [Kcd [K[K[K [K
+[?2004l[?2004h10:18:27 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m cd lab5-tasks/
+[?2004l[?2004h10:18:36 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls /etc > request.txt
+[?2004l[?2004h10:19:34 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mls /usr/bin > letter.txt[27mls /usr/bin > letter.txt
+[?2004l[?2004h10:19:52 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mls /var/logs > order.txt[27mls /var/logs > order.txt
+[?2004lls: невозможно получить доступ к '/var/logs': Нет такого файла или каталога
+[?2004h10:20:05 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls /var/logs > order.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h10:21:08 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls
+[?2004lletter.txt  order.txt  request.txt
+[?2004h10:21:12 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:21:22 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:21:22 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m zip arzip1.zip request [K.txt letter.t xt
+[?2004l  adding: request.txt (deflated 50%)
+  adding: letter.txt (deflated 58%)
+[?2004h10:22:01 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls
+[?2004l[0m[01;31marzip1.zip[0m  letter.txt  order.txt  request.txt
+[?2004h10:22:20 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ды [K[K[Kls arzip1.zip 
+[?2004l[0m[01;31marzip1.zip[0m
+[?2004h10:27:18 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m zip arzio[Kp1.zip order.txt
+[?2004l  adding: order.txt (deflated 64%)
+[?2004h10:27:57 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m zipinfo arzip1.zip 
+[?2004lArchive:  arzip1.zip
+Zip file size: 9633 bytes, number of entries: 3
+-rw-rw-r--  3.0 unx     2346 tx defN 23-Apr-15 10:19 request.txt
+-rw-rw-r--  3.0 unx    18391 tx defN 23-Apr-15 10:19 letter.txt
+-rw-rw-r--  3.0 unx      870 tx defN 23-Apr-15 10:21 order.txt
+3 files, 21607 bytes uncompressed, 9167 bytes compressed:  57.6%
+[?2004h10:28:08 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:28:18 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:28:18 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m mkdir docs
+[?2004l[?2004h10:28:43 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mmv request.txt letter.txt order.txt[27m[7m [27m[7mdocs/[27m[A10:28:43 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m mv request.txt letter.txt order.txt docs/
+[?2004l[?2004h10:28:55 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls docs/
+[?2004lletter.txt  order.txt  request.txt
+[?2004h10:29:02 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:29:19 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:29:20 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mzip -r arzip2.zip docs -v[27mzip -r arzip2.zip docs -v
+[?2004l  adding: docs/	(in=0) (out=0) (stored 0%)
+  adding: docs/request.txt	(in=2346) (out=1162) (deflated 50%)
+  adding: docs/order.txt	(in=870) (out=310) (deflated 64%)
+  adding: docs/letter.txt	(in=18391) (out=7695) (deflated 58%)
+total bytes=21607, compressed=9167 -> 58% savings
+[?2004h10:29:29 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mzip -r arzip2.zip docs[27mzip -r arzip2.zip docs
+[?2004lupdating: docs/ (stored 0%)
+updating: docs/request.txt (deflated 50%)
+updating: docs/order.txt (deflated 64%)
+updating: docs/letter.txt (deflated 58%)
+[?2004h10:29:41 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mzip -r -9 arzip2.zip docs[27mzip -r -9 arzip2.zip docs
+[?2004lupdating: docs/ (stored 0%)
+updating: docs/request.txt (deflated 50%)
+updating: docs/order.txt (deflated 64%)
+updating: docs/letter.txt (deflated 58%)
+[?2004h10:30:00 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7munzip -l arzip1.zip[27munzip -l arzip1.zip
+[?2004lArchive:  arzip1.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     2346  2023-04-15 10:19   request.txt
+    18391  2023-04-15 10:19   letter.txt
+      870  2023-04-15 10:21   order.txt
+---------                     -------
+    21607                     3 files
+[?2004h10:30:17 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7munzip -l arzip2.zip[27munzip -l arzip2.zip
+[?2004lArchive:  arzip2.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2023-04-15 10:28   docs/
+     2346  2023-04-15 10:19   docs/request.txt
+      870  2023-04-15 10:21   docs/order.txt
+    18391  2023-04-15 10:19   docs/letter.txt
+---------                     -------
+    21607                     4 files
+[?2004h10:30:35 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:30:50 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7munzip -t arzip2.zip[27munzip -t arzip2.zip
+[?2004lArchive:  arzip2.zip
+    testing: docs/                    OK
+    testing: docs/request.txt         OK
+    testing: docs/order.txt           OK
+    testing: docs/letter.txt          OK
+No errors detected in compressed data of arzip2.zip.
+[?2004h10:30:53 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h10:31:41 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mhead -c 32M /dev/urandom > sample.e[27m[7mx[27m[7me[27m[A10:31:41 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m head -c 32M /dev/urandom > sample.exe
+[?2004l[?2004h10:31:44 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mzip arzip3.zip sample.exe[27mzip arzip3.zip sample.exe
+[?2004l  adding: sample.exe (deflated 0%)
+[?2004h10:31:58 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mzip -s 10M -r arzip4.zip sample.exe[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czip -s 10M -r arzip4.zip sample.exe [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?2004l  adding: sample.exe (deflated 0%)
+[?2004h10:32:48 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mmkdir Binary1[27mmkdir Binary1
+[?2004l[?2004h10:33:00 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7munzip arzip3.zip -d Binary1[27munzip arzip3.zip -d Binary1
+[?2004lArchive:  arzip3.zip
+  inflating: Binary1/sample.exe      
+[?2004h10:33:07 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mmkdir Binary2[27mmkdir Binary2
+[?2004l[?2004h10:33:26 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m mkdir Binary2unzip arzip3.zip -d Binary1[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004lArchive:  arzip4.zip
+warning [arzip4.zip]:  zipfile claims to be last disk of a multi-part archive;
+  attempting to process anyway, assuming all parts have been concatenated
+  together in order.  Expect "errors" and warnings..

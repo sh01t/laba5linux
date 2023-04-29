@@ -1,0 +1,8 @@
+Файл.система   SPACE Использовано  Дост Использовано% Cмонтировано в
+tmpfs            587M         2,2M  585M            1% /run
+/dev/nvme0n1p6    82G          27G   51G           36% /
+tmpfs            2,9G            0  2,9G            0% /dev/shm
+tmpfs            5,0M         4,0K  5,0M            1% /run/lock
+/dev/nvme0n1p2    96M          32M   65M           33% /boot/efi
+tmpfs            587M         1,4M  586M            1% /run/user/1000
+

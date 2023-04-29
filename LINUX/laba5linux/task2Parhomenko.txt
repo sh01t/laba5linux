@@ -1,0 +1,101 @@
+Script started on 2023-04-15 11:31:15+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="90" LINES="24"]
+Hello, nik!
+[sudo] пароль для nik: 
+net.ipv4.ip_default_ttl = 65
+[?2004h11:31:18 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m [K11:31:18 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m [K11:31:18 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m cd lab5-tasks/
+[?2004l[?2004h11:32:04 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mgzip request.txt[27mgzip request.txt
+[?2004lgzip: request.txt: No such file or directory
+[?2004h11:32:11 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m touch requests [K[K.txt
+[?2004l[?2004h11:32:36 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mgzip request.txt[27mgzip request.txt
+[?2004l[?2004h11:32:52 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls
+[?2004l[0m[01;31marzip1.zip[0m  [01;31marzip3.zip[0m  arzip4.z02  [01;31marzip4.zip[0m  [01;34mBinary2[0m  [01;31mrequest.txt.gz[0m
+[01;31marzip2.zip[0m  arzip4.z01  arzip4.z03  [01;34mBinary1[0m     [01;34mdocs[0m     sample.exe
+[?2004h11:33:02 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mgzip -c order.txt > order.txt.gz[27mgzip -c order.txt > order.txt.gz
+[?2004lgzip: order.txt: No such file or directory
+[?2004h11:34:04 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m gzip -c order.txt > order.txt.gzls[Kgzip request.txt[1@touch[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txto.txtr.txtd.txte.txtr.txt[C[C[C[C
+[?2004l[?2004h11:34:16 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m touch order.txtgzip -c order.txt > order.txt.gz
+[?2004l[?2004h11:34:19 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m gunzip [K[K[K[K[K[K[K[7mgunzip -t request.txt.gz[27mgunzip -t request.txt.gz
+[?2004l[?2004h11:34:56 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m gunzip -t request.txt.gzvrequest.txt.gz[1Prequest.txt.gz-request.txt.gzvrequest.txt.gz request.txt.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lrequest.txt.gz:	 OK
+[?2004h11:35:30 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m gunzip -t -v request.txt.gz[3Prequest.txt.gzzip -c order.txt > order.txt.gz[17Ptouch order.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtl.txte.txtt.txtt.txte.txtr.txt
+[?2004l[?2004h11:36:00 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mgzip -k letter.txt[27mgzip -k letter.txt
+[?2004l[?2004h11:36:10 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m zcat letter.txt.gz 
+[?2004l[?2004h11:36:38 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mgunzip -c letter.txt.gz[27mgunzip -c letter.txt.gz
+[?2004l[?2004h11:37:15 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h11:37:16 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h11:37:16 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mmkdir gzsamples[27mmkdir gzsamples
+[?2004l[?2004h11:42:39 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mcp *.gz gzsamples/[27mcp *.gz gzsamples/
+[?2004l[?2004h11:42:46 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [7mcd gzsamples[27mcd gzsamples
+[?2004l[?2004h11:42:53 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m [7mgunzip request.txt.gz[27mgunzip request.txt.gz
+[?2004l[?2004h11:43:10 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m 
+[?2004l[?2004h11:43:10 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m [7mgzip -k -d order.txt.gz[27mgzip -k -d order.txt.gz[1P[1@v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lorder.txt.gz:	  0.0% -- replaced with order.txt
+[?2004h11:44:48 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m [7mgunzip -k letter.txt.gz[27mgunzip -k letter.txt.gz
+[?2004l[?2004h11:45:31 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m gunzip -k letter.txt.gz[1P letter.txt.gzc letter.txt.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h11:45:57 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m gunzip --help
+[?2004lUsage: /usr/bin/gunzip [OPTION]... [FILE]...
+Uncompress FILEs (by default, in-place).
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -c, --stdout      write on standard output, keep original files unchanged
+  -f, --force       force overwrite of output file and compress links
+  -k, --keep        keep (don't delete) input files
+  -l, --list        list compressed file contents
+  -n, --no-name     do not save or restore the original name and timestamp
+  -N, --name        save or restore the original name and timestamp
+  -q, --quiet       suppress all warnings
+  -r, --recursive   operate recursively on directories
+  -S, --suffix=SUF  use suffix SUF on compressed files
+      --synchronous synchronous output (safer if system crashes, but slower)
+  -t, --test        test compressed file integrity
+  -v, --verbose     verbose mode
+      --help        display this help and exit
+      --version     display version information and exit
+
+With no FILE, or when FILE is -, read standard input.
+
+Report bugs to <bug-gzip@gnu.org>.
+[?2004h11:46:31 [01;32mnik[01;34m ~/lab5-tasks/gzsamples[01;33m (master)[01;34m $[00m cd
+[?2004l[?2004h11:47:16 [01;32mnik[01;34m ~[01;33m (master)[01;34m $[00m ls[K[Kcd lab5-tasks/
+[?2004l[?2004h11:47:58 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls
+[?2004l[0m[01;31marzip1.zip[0m  arzip4.z02  [01;34mBinary2[0m     [01;31mletter.txt.gz[0m   sample.exe
+[01;31marzip2.zip[0m  arzip4.z03  [01;34mdocs[0m        order.txt
+[01;31marzip3.zip[0m  [01;31marzip4.zip[0m  [01;34mgzsamples[0m   [01;31morder.txt.gz[0m
+arzip4.z01  [01;34mBinary1[0m     letter.txt  [01;31mrequest.txt.gz[0m
+[?2004h11:48:01 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ls gzsamples/
+[?2004lletter.txt  [0m[01;31mletter.txt.gz[0m  order.txt  request.txt
+[?2004h11:48:24 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [K11:48:24 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [K11:48:24 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [K11:48:24 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m [K11:48:24 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m gzip --help
+[?2004lUsage: gzip [OPTION]... [FILE]...
+Compress or uncompress FILEs (by default, compress FILES in-place).
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -c, --stdout      write on standard output, keep original files unchanged
+  -d, --decompress  decompress
+  -f, --force       force overwrite of output file and compress links
+  -h, --help        give this help
+  -k, --keep        keep (don't delete) input files
+  -l, --list        list compressed file contents
+  -L, --license     display software license
+  -n, --no-name     do not save or restore the original name and timestamp
+  -N, --name        save or restore the original name and timestamp
+  -q, --quiet       suppress all warnings
+  -r, --recursive   operate recursively on directories
+      --rsyncable   make rsync-friendly archive
+  -S, --suffix=SUF  use suffix SUF on compressed files
+      --synchronous synchronous output (safer if system crashes, but slower)
+  -t, --test        test compressed file integrity
+  -v, --verbose     verbose mode
+  -V, --version     display version number
+  -1, --fast        compress faster
+  -9, --best        compress better
+
+With no FILE, or when FILE is -, read standard input.
+
+Report bugs to <bug-gzip@gnu.org>.
+[?2004h11:52:36 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ^C[?2004l[?2004h[?2004l
+[?2004h11:58:42 [01;32mnik[01;34m ~/lab5-tasks[01;33m (master)[01;34m $[00m ё[Kexit
+[?2004lexit
+
+Script done on 2023-04-15 12:19:16+03:00 [COMMAND_EXIT_CODE="130"]
